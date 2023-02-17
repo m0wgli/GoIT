@@ -146,14 +146,133 @@
 
 
 
-while True:
-    try:
-        user_input = int(input("Enter yout age: "))
-    except ValueError:
-        print("Incorrect value, should be a nubmer")
-    else:
-        break
+# while True:
+#     try:
+#         user_input = int(input("Enter yout age: "))
+#     except ValueError:
+#         print("Incorrect value, should be a nubmer")
+#     else:
+#         break
 
-current_year = 2023
-birth_year = current_year - user_input
-print(f"You born at {birth_year}")
+# current_year = 2023
+# birth_year = current_year - user_input
+# print(f"You born at {birth_year}")
+
+
+
+
+# result = 0
+# first = 1
+# position = 25
+# for _ in range(0, position):
+#     result, first = first, result + first
+# print(result)
+
+
+
+# product_count = 20
+# speed = 5
+# hours_passed = 0
+
+# while product_count > 0 and speed > 0:
+#     product_count -= speed
+#     speed -= 1
+#     hours_passed += 1
+# print(hours_passed)
+
+# while True:
+#     try:
+#         num = int(input("Enter your number: "))
+#         if num % 2 == 0:
+#             print(f'Your number - {num} is even')
+#         else:
+#             print(f'Your number - {num} is odd')
+#     except ValueError:
+#         print("You should enter a number")
+#         continue
+
+
+
+# d = input('take day: ')
+# m = input('take month: ')
+# y = input('take year: ')
+
+# try:
+#     d = int(d)
+#     m = int(m)
+#     y = int(y)
+# except ValueError as e:
+#     print(e)
+
+# if m < 0 or m > 12:
+#     raise ValueError('Month must be from 1 to 12')
+# if m in (1, 3, 5, 7, 8, 10, 12):
+#     if d <=0 or d > 31:
+#         raise ValueError('Day should be between 1 and 31')
+# elif m in (4, 6, 9, 11):
+#     if d <=0 or d > 30:
+#         raise ValueError(f'In month {m} Day should be between 1 and 30')
+# else:
+#     if y % 400 == 0:
+#         isLeapYear = True
+#     elif y % 100 == 0:
+#         isLeapYear = False
+#     elif y % 4 == 0:
+#         isLeapYear = True
+#     else:
+#         isLeapYear = False
+    
+#     if isLeapYear:
+#         if d <=0 or d > 29:
+#             raise ValueError(f'In month {m} between 1 and 29')
+#     else:
+#         if d <=0 or d > 28:
+#             raise ValueError(f'In month {m} between 1 and 28')
+
+# print(f'{d}.{m}.{y}')
+
+
+
+
+# side_1 =  float(input('First side: '))
+# side_2 =  float(input('Second side: '))
+# side_3 =  float(input('Third side: '))
+
+# if side_1 == side_2 and side_2 == side_3:
+#     print('Рівносторонній')
+# elif side_1 == side_2 or side_2 == side_3 or side_1 == side_3:
+#     print('Рівнобедренний')
+# else:
+#     print('Різносторонній')
+
+
+
+# user_input = input('Take string: ')
+
+# if not user_input:
+#     print('Nothing entered')
+
+# count_ch = 0
+
+# for ch in user_input:
+#     if ch == 'a':
+#         count_ch += 1
+
+# print(f'{count_ch}')
+
+
+
+
+# deposit = 100
+# percent = 0.05
+# period = 10
+# old_deposit = deposit
+
+# for i in range (0, period):
+#     new_deposit = deposit * (1 + percent / 12) ** 12
+#     deposit = new_deposit
+
+# profit = deposit - old_deposit
+# print(profit)
+
+
